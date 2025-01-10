@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Force LF for specific file types
+*.html text eol=lf
+*.css text eol=lf
+*.py text eol=lf
+
+# Binary files (no line-ending conversion)
+*.jpg binary
+*.png binary
+*.exe binary
