@@ -6,9 +6,9 @@ from . models import Customers
 
 # Create your views here.
 
-def sign_out(request):
-    logout(request)
-    return redirect('home')
+#def sign_out(request):
+#    logout(request)
+#    return redirect('home')
 
 def show_account(request):
 
