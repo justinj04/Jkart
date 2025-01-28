@@ -11,10 +11,10 @@
         <tr>
             <td>
                 <div class="cart-info">
-                    <img src="{{ cart_item.product.image.url }}" alt="{{ cart_item.product.title }}">
+                    <img src="{{ cart_item.product.images.url }}" alt="{{ cart_item.product.title }}">
                     <div>
                         <p>{{ cart_item.product.title }}</p>
-                        <small>Price: ${{ cart_item.product.price }}</small>
+                        <small>Price: ₹{{ cart_item.product.price }}</small>
                         <br>
                         <a href="#">Remove</a>
                     </div>

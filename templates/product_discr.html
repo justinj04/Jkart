@@ -19,11 +19,11 @@
                 <option>M</option>
                 <option>S</option>
             </select>
-            <form method="number" action="{% url 'add_to_cart' %}" enctype="multipart/form-data">
+            <form method="post" action="{% url 'add_to_cart' %}" enctype="multipart/form-data">
                  {% csrf_token %}
                  <input type="hidden" value="{{ product.id }}" name="product_id"/>
                 <input type="number" name="quantity" value="1">
-                <a href="" class="btn">Add To Cart</a>
+                <button type="submit" class="btn">Add To Cart</button>
             </form>
 
             <h3>Product Details <i class="fa fa-indent"></i></h3>

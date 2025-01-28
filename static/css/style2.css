@@ -47,12 +47,12 @@ p{
     justify-content: space-around;
 }
 .col-2{
-    flex-basis: 50%;
+    flex-basis: 35%;
     min-width: 300px;
 }
 .col-2 img{
     max-width: 100%;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 .col-2 h1{
     font-size: 50px;
@@ -61,7 +61,7 @@ p{
 }
 .btn{
     display: inline-block;
-    background: #ff523b;
+    background: #7dae89;
     color: white;
     padding: 8px 30px;
     margin: 30px 0;
@@ -72,10 +72,10 @@ p{
     background: #563434;
 }
 .header{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#ffffff,#e4e0c3);
 }
 .header .row{
-    margin-top: 70px;
+    margin-top: 10px;
 }
 .categories{
     margin: 70px 0;
@@ -113,7 +113,7 @@ p{
 }
 .title::after{
     content: '';
-    background: #ff523b;
+    background: #7dae89;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -130,7 +130,7 @@ h4{
     font-size: 14px;
 }
 .rating .fa{
-    color: #ff523b;
+    color: #7dae89;
 }
 .col-4:hover{
     transform: translateY(-5px);
@@ -169,7 +169,7 @@ small{
 }
 .fa.fa-quote-left{
     font-size: 34px;
-    color: #ff523b;
+    color: #7dae89;
 }
 .col-3 p{
     font-size: 12px;
@@ -259,7 +259,7 @@ ul{
     margin: 100px auto 50px;
 }
 select{
-    border: 1px solid #ff523b;
+    border: 1px solid #7dae89;
     padding: 5px;
 }
 select:focus{
@@ -270,7 +270,7 @@ select:focus{
 }
 .page-btn span{
     display: inline-block;
-    border: 1px solid #ff523b;
+    border: 1px solid #7dae89;
     margin-left: 10px;
     width: 40px;
     height: 40px;
@@ -279,7 +279,7 @@ select:focus{
     cursor: pointer;
 }
 .page-btn span:hover{
-    background: #ff523b;
+    background: #7dae89;
     color: white;
 }
 
@@ -309,14 +309,14 @@ select:focus{
     padding-left: 10px;
     font-size: 20px;
     margin-left: 10px;
-    border: 1px solid #ff523b;
+    border: 1px solid #7dae89;
     margin-right: 10px;
 }
 input:focus{
     outline: none;
 }
 .single-product .fa{
-    color: #ff523b;
+    color: #7dae89;
     margin-left: 10px;
 }
 .small-img-row{
@@ -344,7 +344,7 @@ th{
     text-align: left;
     padding: 5px;
     color: #fff;
-    background: #ff523b;
+    background: #7dae89;
     font-weight: normal;
 }
 td{
@@ -356,7 +356,7 @@ td input{
     padding: 5px;
 }
 td a{
-    color: #ff523b;
+    color: #7dae89;
     font-size: 12px;
 }
 td img{
@@ -369,7 +369,7 @@ td img{
     justify-content: flex-end;
 }
 .total-price table{
-    border-top: 3px solid #ff523b;
+    border-top: 3px solid #7dae89;
     width: 100%;
     max-width: 400px;
 }
@@ -388,19 +388,13 @@ th:last-child{
 .form-container{
     background: #fff;
     width: 300px;
-    height: 445px;
+    height: 400px;
     position: relative;
     text-align: center;
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-}
-.error{
-    color: red;
-}
-.success{
-    color: green;
 }
 .form-container span{
     font-weight: bold;
@@ -448,7 +442,7 @@ form a{
 #Indicator{
     width: 100px;
     border: none;
-    background: #ff523b;
+    background: #7dae89;
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
