@@ -2,6 +2,15 @@
 
 {% block banner %}
 
+{% if messages %}
+    {% for message in messages %}
+    <ul class="{{ message.tags }}">{{ message }}</ul>
+    {% endfor %}
+    
+{% else %}
+
 {% include 'cart_container.html' %}
+
+{% endif %}
 
 {% endblock banner %} 

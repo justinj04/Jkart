@@ -6,9 +6,9 @@ from . models import Customers
 
 # Create your views here.
 
-#def sign_out(request):
-#    logout(request)
-#    return redirect('home')
+def sign_out(request):
+    logout(request)
+    return redirect('home')
 
 def show_account(request):
 
@@ -27,7 +27,7 @@ def show_account(request):
             )
             # create customer account
             customer=Customers.objects.create(
-                user=user,
+                user=username,
                 phone=phone,
                 adress=address
             )
@@ -44,6 +44,6 @@ def show_account(request):
                 login(request,user)
                 return redirect('home')
             else:
-                messages.error(request,'invalid user credentials. please register')    
+                messages.error(request,'invalid username or password')    
 
     return render(request,'account.html')

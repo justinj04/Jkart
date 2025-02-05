@@ -7,16 +7,7 @@
             </div>
             <div class="col-2">
                 {% if messages %}
-                <div class="message-container" style="
-                    background: #fff;
-                    width: 300px;
-                    height:fit-content;
-                    position: relative;
-                    text-align: center;
-                    padding: 20px 0;
-                    margin: auto;
-                    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
-                    overflow: hidden;">
+                <div class="message-container">
                     {% for message in messages %}
                     <ul class="{{ message.tags }}">{{ message }}</ul>
                     {% endfor %}
