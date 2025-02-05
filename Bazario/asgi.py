@@ -1,5 +1,5 @@
 """
-ASGI config for Jkart project.
+ASGI config for Bazario project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Jkart.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Bazario.settings')
 
 application = get_asgi_application()
